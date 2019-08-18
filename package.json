@@ -1,0 +1,25 @@
+{
+  "name": "semver",
+  "version": "1.0.0",
+  "description": "test regex for semver",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidingnan/semver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidingnan/semver/issues"
+  },
+  "homepage": "https://github.com/aidingnan/semver#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "expect": "^24.9.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
